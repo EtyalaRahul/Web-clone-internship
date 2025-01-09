@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo-div {
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4d11fd25fa9_Frame%201000003044%20(2).svg');
+    height: 10vh;
+    background-repeat: no-repeat;
+    margin-top: 72px;
+    cursor: pointer;
+}
+
+.first-section {
+    height: 100vh;
+    background:
+        /* linear-gradient(to right, #1b273b 35%, #fff), */
+        transparent;
+    font-family: 'Roboto';
+    z-index: 1;
+}
+
+.scroll-text-div-span {
+    color: #a3e635;
+}
+
+.strike-text {
+    color: #a3e635;
+    text-decoration: line-through;
+
+}
+
+.scroll-section {
+    background-color: #0f172a;
+    padding: 30px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.scroll-section h1 {
+    font-family: Satoshi, sans-serif;
+    font-weight: 700;
+    color: #f1f5f9;
+    font-size: 48px;
+    padding-bottom: 20px;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+}
+
+.scroll-img {
+    height: 52px;
+}
+
+.marquee-div {
+    animation: scroll-animation 20s linear infinite;
+    padding: 20px;
+    white-space: inherit;
+}
+
+@keyframes scroll-animation {
+    from {
+        transform: translateX(0%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.marquee-content {
+    padding: 30px;
+}
+
+.scroll-section {
+    padding: 70px;
+}
+
+.collection-div {
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4b212d25fe3_A%20Rare%20Collection%20of%20Insider%20%20Knowledge%2C%20All%20Yours!%20(1).png');
+    /* height: 150vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+.selection-section-heading {
+    color: #fff;
+    font-size: 48px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin-top: 120px;
+}
+
+.selection-section-para {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.collection-buttons button {
+    margin: 10px;
+    border-radius: 40px;
+    text-transform: capitalize;
+    /* border: 2px solid #fff; */
+    color: #fff;
+    padding: 10px 20px;
+    background-color: transparent;
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.collection-buttons button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.card-div {
+    border-radius: 30px;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.slider-cards {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.card-text-scroller {
+    background-color: #334155;
+    padding: 20px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-text-scroller-heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.card-text-scroller p {
+    margin: 5px 0;
+}
+
+.img-div-card img {
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.clock {
+    color: #858d99;
+}
+
+.card-div-name {
+    color: #cbd5e1;
+    font-family: 'Roboto';
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+.card-div-name {
+    font-size: 20px;
+}
+
+.slider-list li {
+    margin: 20px;
+}
+
+.claim-free-access-btn-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.get-podcast-para {
+    font-family: 'Roboto';
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.linkedin-section {
+    height: 100vh;
+    background-color: #0f172a;
+}
+
+.feedback-button button {
+    border-radius: 50px;
+}
+
+.feedback-button button:hover {
+    background-color: rgba(255, 166, 0, 0.104);
+    color: orange;
+}
+
+.swiper {
+    width: 100%;
+    height: 370px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.swiper-slide {
+    background-color: #1e293b;
+    border-radius: 13px;
+    margin-left: 54px;
+
+}
+
+.swipper-divison {
+    padding: 40px;
+    padding-bottom: 10px;
+}
+
+.swiper-slide-class {
+    height: 270px;
+}
+
+.swipper-slide-card-top-img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.swipper-slide-card-top-para1 {
+    color: #e2e8f0;
+    font-size: 22px;
+}
+
+.linkedin-icon {
+    color: rgb(10 102 194);
+}
+
+.swipper-slide-card-bottom-section {
+    color: #e2e8f0;
+    font-family: 'Roboto';
+    font-weight: 300;
+    margin-top: -25px;
+    line-height: -20px;
+}
+
+.podcast-div {
+    background-image: url('https://assets-global.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4e843d25fd4_NxtWave%27s%20Empowering%20Podcast%20Series%20%20to%20Shape%20your%20Dream%20Career.%20(1).png');
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    margin-top: -140px;
+}
+
+.podcast-heading {
+    padding: 100px;
+}
+
+.podcast-list div h1 {
+    color: #e2e8f0;
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.podcast-list {
+    margin-left: 120px;
+}
+
+.podcast-list div {
+    min-height: 50px;
+    align-items: center;
+}
+
+.claim-accesss-div {
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.form-section {
+    background-color: #0f172a;
+    height: 60vh;
+}
+
+.form-section-heading {
+    color: #fff;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 48px;
+    padding-left: 160px;
+}
+
+.fieldset input {
+    height: 5vh;
+    margin-left: -20px;
+    width: 450px;
+    background-color: rgb(51, 65, 85);
+    border-width: 0px;
+    border-radius: 2px;
+    padding: 0px 70px;
+    border-radius: 13px;
+
+}
+
+.fieldset label {
+    color: #fff;
+}
+
+input::placeholder {
+    font-family: 'Roboto';
+    text-align: left;
+    color: rgb(148 163 184);
+}
+
+.fieldset {
+    margin: 3px;
+}
+
+.get-otp button {
+    text-transform: uppercase;
+    border-radius: 13px;
+    width: 450px;
+}
+
+.speaker-profiles {
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/645345c7c2106e1bd1c65a6c_Background%20String.png');
+    background-size: cover;
+    height: 15vh;
+}
+
+.speaker-profiles {
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-align: left;
+}
+
+.footer {
+    height: auto;
+    padding: 40px 0;
+    background-color: #0f172a;
+    color: #5a7184;
+}
+
+.first-column,
+.quick-links,
+.payment-methods {
+    padding: 20px 40px;
+}
+
+.first-column img {
+    max-width: 150px;
+}
+
+.first-column-text-bolded {
+    color: #5a7184;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.mail-div img {
+    width: 20px;
+    height: 20px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul li:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.quick-links p {
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.payment-methods img {
+    margin: 0 10px;
+    width: 80px;
+    height: auto;
+}
+
+.payment-methods i {
+    color: #fff;
+    margin-right: 10px;
+}
+
+.payment-methods p {
+    margin-top: 10px;
+    font-size: 17px;
+    color: #5a7184;
+}
+
+.location-icon {
+    color: #5a7184;
+}
+
+.icons-hr-below {
+    flex: 1;
+}
+
+.hr-below-div2 {
+    flex: 2;
+}
+
+.background-video {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.main-first-div {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Gradient overlay on the video */
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #1e293b, rgba(255, 255, 255, 0.078));
+    z-index: 1;
+}
+
+/* Content positioning */
+.first-section {
+    position: relative;
+    z-index: 2;
+}
+
+/* Background Video */
+.background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.swiper-slide {
+    margin-top: 15px;
+    height: 30vh;
+}
+
+.swiper-pagination {
+    margin-left: 120px;
+}
