@@ -458,13 +458,12 @@ ul li:hover {
     z-index: 1;
 }
 
-/* Content positioning */
 .first-section {
     position: relative;
     z-index: 2;
 }
 
-/* Background Video */
+
 .background-video {
     position: absolute;
     top: 0;
